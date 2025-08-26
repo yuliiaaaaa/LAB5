@@ -120,63 +120,74 @@ Develop automated tests as time and resources allow
 
 
 # 3.Test Environment
-## Setup required for the test environment:
-Browser:
-Google Chrome (latest)
-Mozilla Firefox (Latest) (Optional)
-Safari (Latest) (Optional)
+- Setup required for the test environment:
 
-Display resolution:
-Desktop: 1920×1080 (Full HD)
-Tablet: 800×1280 
-Mobile: 375×667 (iPhone SE)
+
+Browser:<br>
+-Google Chrome (latest)<br>
+-Mozilla Firefox (Latest) (Optional)<br>
+-Safari (Latest) (Optional)<br>
+
+
+Display resolution:<br>
+-Desktop: 1920×1080 (Full HD)<br>
+-Tablet: 800×1280 <br>
+-Mobile: 375×667 (iPhone SE)<br>
 Supported range: 320×568 (minimum, small mobile) to 1920×1080 (maximum, full HD desktop)
 
-Display orientation: 
-Desktop/Laptop: Landscape
-Mobile: Portrait and Landscape
+Display orientation: <br>
+-Desktop/Laptop: Landscape<br>
+-Mobile: Portrait and Landscape<br>
 
-Localization of the project:
-English (en) 
+Localization of the project:<br>
+-English (en) 
 
-Number of environments are defined by coaches on each project
-Number of environments:  
-Local (local)
-Development (dev)
-Production (prod)
+- Number of environments are defined by coaches on each project <br>
 
-Testing Tools and Artifacts
-Testing artifacts for the Project:
+Number of environments: <br> 
+-Local (local)<br>
+-Development (dev)<br>
+-Production (prod)<br>
+
+# 4.Testing Tools and Artifacts
+
+- Testing artifacts for the Project:
 All artifacts should be published on the Github project board
 
 
-Test strategy,
-Project Test plan (optional, it creates for specific release),
-Mind map,
-Checklist,
-Bug reports,
-Traceability matrix (optional),
+-Test strategy,<br>
+-Project Test plan (optional, it creates for specific release),<br>
+-Mind map,<br>
+-Checklist,<br>
+-Bug reports,<br>
+-Traceability matrix (optional),<br>
+
+- Defect Life Cycle:
+
+```mermaid
+flowchart TB
+ node1(To be tested) --> node2(In testing)
+ node2(In testing) --> node3{Passed?}
+ node3{Passed?} -- No --> node4{Minor bug?}
+ node3{Passed?} -- Yes --> node6(Done)
+ node4{Minor bug?} -- No --> node5(Todo)
+ node4{Minor bug?} -- Yes --> node7(Done)
+ node7(Done) --> node8(Create bug report)
+```
+
+Severity:<br>
+Critical – Critical Impact/System Down. Complete system outage.<br>
+Major – Significant Impact/Severe downgrade of services.<br>
+Minor – Minor impact/Most of the system is functioning properly.<br>
+Trivial – Low Impact/Informational.<br>
 
 
-Defect Life Cycle:
+- Automated testing (optional): <br>
+We will use Postman (TS, playwright).<br>
+We will use GIT hub actions for CI/CD.<br>
 
 
-
-
-
-
-
-Severity: 
-Critical – Critical Impact/System Down. Complete system outage.
-Major – Significant Impact/Severe downgrade of services.
-Minor – Minor impact/Most of the system is functioning properly.
-Trivial – Low Impact/Informational.
-
-
-Automated testing (optional): 
-We will use Postman (TS, playwright).
-We will use GIT hub actions for CI/CD.
-Release Control    
+# 5.Release Control    
 The project workspace is organized on the Github project board:
 GitHub is used as a code hosting platform for version control and collaboration for this project. 
 Testing entry criteria:
