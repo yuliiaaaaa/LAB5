@@ -1,89 +1,62 @@
-Table of Contents
-1. Introduction	2
-○ Analogues	2
-○ Used technologies	2
-○ Documents	2
-○ Project team	2
-○ Project deadlines	3
-○ Communications approach	3
-2. Test Approach	4
-○ Types of Testing	4
-○ Priorities for test activities	4
-○ Weekly objectives for QA team	4
-○ Using templates	5
-3. Test Environment	6
-4. Testing Tools and Artifacts	7
-● Testing artifacts for the Project:	7
-● Defect Life Cycle:	7
-● Automated testing (optional):	8
-5. Release Control	8
-○ Testing entry criteria:	9
-○ Testing exit criteria:	9
-6. Additional Procedures	10
-● Meetings:	10
-● Work review:	10
-● Testing team:	10
-7. Common risks	10
-8. Test Plan (link to document)	11
 
-
-
-Introduction
+# 1.Introduction
 The purpose of the test strategy for the Smartscapes is to:
-Provide a central artifact to govern the strategic approach of the test effort; it defines the general approach to be employed when testing the software and when evaluating the results of that testing. Planning artifacts will refer to the test strategy regarding the governing of detailed testing work.
-Provide visible confirmation to test-effort stakeholders that adequate consideration has been given to governing the test effort and, where appropriate, to have those stakeholders approve the strategy.
-Analogues 
+- Provide a central artifact to govern the strategic approach of the test effort;it defines the general approach to be employed when testing the software and when evaluating the results of that testing.Planning artifacts will refer to the test strategy regarding the governing of detailed testing work
+- Provide visible confirmation to test-effort stakeholders that adequate consideration has been given to governing the test effort and, where appropriate, to have those stakeholders approve the strategy.
 
-AllTrails
-Strava
-Used technologies 
-Backend
-Fastify — a backend framework, Knex — a query builder, Objection — an ORM, Typescript
-Database
-PostgreSQL
-Frontend
- React— a frontend library, Redux + Redux Toolkit — a state manager,  Typescript
-Github actions are used for CI and CD.
-Scrum model of SDLC.
-Documents
-Design — Figma
-Specification — Specification
-Repository  — Repository
-Project team
+## Analogues 
+
+- AllTrails
+- Strava
+  
+## Used technologies 
+- Backend
+  - Fastify — a backend framework, Knex — a query builder, Objection — an ORM, Typescript
+- Database
+  - PostgreSQL
+- Frontend
+   - React— a frontend library, Redux + Redux Toolkit — a state manager,  Typescript
+- Github actions are used for CI and CD.
+- Scrum model of SDLC.
+## Documents
+- Design — Figma
+- Specification — Specification
+- Repository  — Repository
+## Project team
 The team that will work on the project: 
-developer team (10);
-QA team (2);
-3 coaches of the developer team;
-1 mentor of the QA team;
-Product Owner 
-Project deadlines
-21/07/2025 - project starts;
-30/08/2025 - release.
-All works must be completed before 30/08/2025.  
+- developer team (10);
+- QA team (2);
+- 3 coaches of the developer team;
+- 1 mentor of the QA team;
+- Product Owner 
+## Project deadlines
+- 21/07/2025 - project starts;
+- 30/08/2025 - release.
+- All works must be completed before 30/08/2025.  
 
-Communications approach
+## Communications approach
 Testers can communicate:
-with questions that arise during the development to mentor and coaches;
-with questions about the product to the product-owner before the demo;
-with any technical questions to the development team.
+- with questions that arise during the development to mentor and coaches;
+- with questions about the product to the product-owner before the demo;
+- with any technical questions to the development team.
 
-Test Approach
+## 2.Test Approach
 A proactive approach will be used in the testing - an approach in which the test design process is initiated as early as possible in order to find and fix the defects before the build is created.
-Manual testing
-Automated testing (Optional)
+- Manual testing
+- Automated testing (Optional)
 
 Automated testing will cover all high-level features (only API tests should be automated).
 
 
-Types of Testing 
+## Types of Testing 
 The following types of testing will be used:
-Functional testing
-User interface testing
-Smoke testing
-Regression testing
-Acceptance testing
+- Functional testing
+- User interface testing
+- Smoke testing
+- Regression testing
+- Acceptance testing
 
-Priorities for test activities
+## Priorities for test activities
 
 Priority
 Responsibility
@@ -110,43 +83,44 @@ Verify resolved defects and close verified issues
 Maintain and update test documentation as needed
 Develop automated tests as time and resources allow
 
-Using templates
+## Using templates
 
-Bug Report Template: 
+#### Bug Report Template: 
 
-Summary
-Environment
-Steps to reproduce
-Actual Result
-Expected Result
-Visual Proof (screenshots, videos, text)
-Severity
-User Story template:
-Background
-Idea 
-As a (ROLE), I want to (ACTION) so that I can (VALUE/OUTCOME)
-Acceptance criteria
+1. Summary
+2. Environment
+3. Steps to reproduce
+4. Actual Result
+5. Expected Result
+6. Visual Proof (screenshots, videos, text)
+7. Severity
+   
+### User Story template:
+1. Background
+2. Idea <br>
+    As a (ROLE), I want to (ACTION) so that I can (VALUE/OUTCOME)
+3. Acceptance criteria
 
-Checklist Template: 
-№
-Application name
-Test case ID
-Status (Passed, skipped, Failed, Not Run)
-Notes
-Bug
+### Checklist Template: 
+1. №
+2. Application name
+3. Test case ID
+4. Status (Passed, skipped, Failed, Not Run)
+5. Notes
+6. Bug
 
-Test Case Template:
-ID 
-Feature
-Description
-Preconditions
-Test data
-Steps
-Expected result
+### Test Case Template:
+1. ID
+2. Feature
+3. Description
+4. Preconditions
+5. Test data
+6. Steps
+7. Expected result
 
 
-Test Environment
-Setup required for the test environment:
+# 3.Test Environment
+## Setup required for the test environment:
 Browser:
 Google Chrome (latest)
 Mozilla Firefox (Latest) (Optional)
