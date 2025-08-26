@@ -226,101 +226,23 @@ To improve the testing process next additional procedures are needed:
 
 # 7. Common risks
 
-Risk
-Probability
-Impact
-Mitigation Plan
-Responsible for mitigation
-The testing schedule is tight. If the start of the testing is delayed due to design tasks, the test cannot be extended beyond the UAT scheduled start date.
-High
-High
-The testing team can control the preparation tasks (in advance) and the early communication with involved parties. 
-Some buffer has been added to the schedule for contingencies
-QA Engineer
-Not enough resources, resources onboarding too late
-Medium
-High
-Holidays and vacations should have been estimated and built into the schedule
-Developer, QA Engineer, PM
-Defects are found at a late stage of the cycle; defects discovered late are most likely due to unclear specifications (or their absence) and are time-consuming to resolve.
-Medium
-High
-Ensure prompt communication and fixing of issues. Timely analysis of requirements and development of clear and unambiguous acceptance criteria
-Developer, QA Engineer, PM
-Adding new points/features to completely defined scope
-
-
-Medium
-Medium
-Timely analysis of requirements and development of clear and unambiguous acceptance criteria
-Developer, QA Engineer, PM
-Natural disasters/emergency situations
-Low
-Medium
-Remote work is allowed, which allows one to quickly respond to emergency situations and continue work
-PM
-Illness or vacation of a team member
-Medium
-High
-Provision has to be made for the temporary assignment of duties to another competent specialist. Correct planning of all processes. Prioritization of testing
-Developer, QA Engineer, PM
-Incorrect implementation of complex new product logic
-Medium
-High
-Timely analysis of requirements and development of clear and unambiguous acceptance criteria
-Developer, QA Engineer, PM
-Problems with support for various browser and OS combinations
-Medium
-Medium
-Compatibility testing
-QA Engineer
-Difficulties with the usability of new application functionality
-Medium
-Medium
-Cooperation with designers, creation of a focus group during the development of functionality
-Developer, QA Engineer, PM
-Lack or insufficient knowledge of the tool or software
-Medium
-High
-This may cause a delay in meeting product testing deadlines. It requires analysis of technical documentation and planning of the testing process with the necessary list of used tools and programs, with further consideration of the preparatory and training period during the estimation process and adding to the scheduleю The use of code reviews between developers, ensuring the presence of a mentor at the initial stages of getting to know the programs
-Developer, QA Engineer, PM
-Delayed testing due to new Issues
-Medium
-High
-Timely analysis of requirements and development of clear and unambiguous acceptance criteria
-If new defects are discovered, the defect management and issue management procedures are in place to immediately provide a resolution.
-Developer, QA Engineer, PM
-Reporting issues takes too much time
-Very High
-High
-1.New feature testing should be performed asap for related tasks in the “To be tested” Column so that developer won’t have to waste much time on recalling the implementation
-2. New feature testing should be performed until all issues are fixed with direct reporting to the Developer
-QA Engineer
-Late QA onboarding OR Testing takes too much time
-High
-Critical
-1.Involve previous QAs for faster onboarding
-2.1 Involve Dev team for testing OR
-2.2 Involve extra QAs for testing 
-QA Engineer, PM
-QA is unavailable/busy with other priorities
-Moderate
-Critical
-Make sure to properly prioritize the testing  activities
-QA Engineer, PM
-Developer is unavailable/busy with other priorities
-Low
-High
-Try shielding developers from lower priority stuff
-QA Engineer, Developer, PM
-
-
-
-
-
-
-
-
+| Risk | Probability | Impact | Mitigation Plan | Responsible for mitigation |
+|------|-------------|--------|-----------------|----------------------------|
+| The testing schedule is tight. If the start of the testing is delayed due to design tasks, the test cannot be extended beyond the UAT scheduled start date. | High | High | The testing team can control the preparation tasks (in advance) and the early communication with involved parties. Some buffer has been added to the schedule for contingencies | QA Engineer |
+| Not enough resources, resources onboarding too late | Medium | High | Holidays and vacations should have been estimated and built into the schedule | Developer, QA Engineer, PM |
+| Defects are found at a late stage of the cycle; defects discovered late are most likely due to unclear specifications (or their absence) and are time-consuming to resolve. | Medium | High | Ensure prompt communication and fixing of issues. Timely analysis of requirements and development of clear and unambiguous acceptance criteria | Developer, QA Engineer, PM |
+| Adding new points/features to completely defined scope | Medium | Medium | Timely analysis of requirements and development of clear and unambiguous acceptance criteria | Developer, QA Engineer, PM |
+| Natural disasters/emergency situations | Low | Medium | Remote work is allowed, which allows one to quickly respond to emergency situations and continue work | PM |
+| Illness or vacation of a team member | Medium | High | Provision has to be made for the temporary assignment of duties to another competent specialist. Correct planning of all processes. Prioritization of testing | Developer, QA Engineer, PM |
+| Incorrect implementation of complex new product logic | Medium | High | Timely analysis of requirements and development of clear and unambiguous acceptance criteria | Developer, QA Engineer, PM |
+| Problems with support for various browser and OS combinations | Medium | Medium | Compatibility testing | QA Engineer |
+| Difficulties with the usability of new application functionality | Medium | Medium | Cooperation with designers, creation of a focus group during the development of functionality | Developer, QA Engineer, PM |
+| Lack or insufficient knowledge of the tool or software | Medium | High | This may cause a delay in meeting product testing deadlines. It requires analysis of technical documentation and planning of the testing process with the necessary list of used tools and programs, with further consideration of the preparatory and training period during the estimation process and adding to the schedule. The use of code reviews between developers, ensuring the presence of a mentor at the initial stages of getting to know the programs | Developer, QA Engineer, PM |
+| Delayed testing due to new Issues | Medium | High | Timely analysis of requirements and development of clear and unambiguous acceptance criteria. If new defects are discovered, the defect management and issue management procedures are in place to immediately provide a resolution. | Developer, QA Engineer, PM |
+| Reporting issues takes too much time | Very High | High | 1. New feature testing should be performed asap for related tasks in the “To be tested” Column so that developer won’t have to waste much time on recalling the implementation. 2. New feature testing should be performed until all issues are fixed with direct reporting to the Developer | QA Engineer |
+| Late QA onboarding OR Testing takes too much time | High | Critical | 1. Involve previous QAs for faster onboarding. 2.1 Involve Dev team for testing OR 2.2 Involve extra QAs for testing | QA Engineer, PM |
+| QA is unavailable/busy with other priorities | Moderate | Critical | Make sure to properly prioritize the testing activities | QA Engineer, PM |
+| Developer is unavailable/busy with other priorities | Low | High | Try shielding developers from lower priority stuff | QA Engineer, Developer, PM |
 
 
 # 8. Test Plan (link to document)
