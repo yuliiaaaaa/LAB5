@@ -188,43 +188,43 @@ We will use GIT hub actions for CI/CD.<br>
 
 
 # 5.Release Control    
-The project workspace is organized on the Github project board:
-GitHub is used as a code hosting platform for version control and collaboration for this project. 
-Testing entry criteria:
-the testing process begins at the requirements' analysis stage,
-control of the design process at the stage of developing a system project,
-fulfillment of acceptance criteria of the tickets.
-Testing exit criteria:
-all works must be completed not later than: 30/08/2025,
-fixed 95% of found defects, with no blocking, critical and high severity,
+The project workspace is organized on the Github project board:<br>
+GitHub is used as a code hosting platform for version control and collaboration for this project. <br>
+  - Testing entry criteria:<br>
+-the testing process begins at the requirements' analysis stage,<br>
+-control of the design process at the stage of developing a system project,<br>
+-fulfillment of acceptance criteria of the tickets.<br>
+- Testing exit criteria:<br>
+-all works must be completed not later than: 30/08/2025,<br>
+-fixed 95% of found defects, with no blocking, critical and high severity,<br>
 management decision.
 
 
 
 
-Additional Procedures
+# 6. Additional Procedures
 To improve the testing process next additional procedures are needed:
-Meetings:
-Daily SCRUM team meeting;
-QA mentor meeting;
-QA team meetings (optional);
-Weekly demo with PO.
+- Meetings:<br>
+-Daily SCRUM team meeting;<br>
+-QA mentor meeting;<br>
+-QA team meetings (optional);<br>
+-Weekly demo with PO.<br>
 
-Work review:
-Weekly review of test artifacts with QA mentor.
-Sprint retrospective with QA team.
+- Work review:<br>
+-Weekly review of test artifacts with QA mentor.<br>
+-Sprint retrospective with QA team.<br>
 
-Testing team:
-  Responsibilities of each QA team member:
-writing test documentation;
-specification analysis;
-manual testing;
-API testing (manual or automated);
-Report bugs and errors to development teams.
+- Testing team:
+  Responsibilities of each QA team member:<br>
+-writing test documentation;<br>
+-specification analysis;<br>
+-manual testing;<br>
+-API testing (manual or automated);<br>
+-Report bugs and errors to development teams.<br>
 
 
 
-Common risks
+# 7. Common risks
 
 Risk
 Probability
@@ -323,7 +323,7 @@ QA Engineer, Developer, PM
 
 
 
-Test Plan (link to document)
+# 8. Test Plan (link to document)
 
 Link to the Test plan:
 
@@ -331,11 +331,11 @@ Test plan document should be composed by QA team
 It must contain:
 
 
-Feature priorities
-Team availability hours
-Test approach (backend/frontend decomposition)
-What will we automate? On what level?
-Features planned
-Features implemented
-Demo date / final scope
+Feature priorities<br>
+-Team availability hours<br>
+-Test approach (backend/frontend decomposition)<br>
+-What will we automate? On what level?<br>
+-Features planned<br>
+-Features implemented<br>
+-Demo date / final scope<br>
 
