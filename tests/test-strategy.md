@@ -57,31 +57,22 @@ The following types of testing will be used:
 - Acceptance testing
 
 ## Priorities for test activities
-
-Priority
-Responsibility
-Purpose
-Highest
-In the presence or appearance of new tasks with the “Needs-qa-review” label, analyze and review the requirements for these tasks and discuss them with the product owner.
-Further transfer of the task with correct and detailed requirements to the developer for implementation. Proper planning of the test strategy and creation of appropriate test documentation
-High
-In the presence or appearance of new tasks in the “To Be Tested” assign an work on them due to the prepared test documentation
-Timely performance of assigned tasks by the QA Engineer and Developers within the schedule of testing and development of the product
-High
-Completion of assigned tasks from the “In Progress” section. Checking the fixed bugs from the “To Be Tested” section
-Timely performance of assigned tasks by the QA Engineer and Developers within the schedule of testing and development of the product
-Major
-In the absence of tasks with the highest and high priority, work on creating new and/or improving existing test documentation
-QA process improvement of the product
+| Priority | Responsibility | Purpose |
+|----------|----------------|---------|
+| Highest  | In the presence or appearance of new tasks with the “Needs-qa-review” label, analyze and review the requirements for these tasks and discuss them with the product owner. | Further transfer of the task with correct and detailed requirements to the developer for implementation. Proper planning of the test strategy and creation of appropriate test documentation |
+| High     | In the presence or appearance of new tasks in the “To Be Tested” assign and work on them due to the prepared test documentation | Timely performance of assigned tasks by the QA Engineer and Developers within the schedule of testing and development of the product |
+| High     | Completion of assigned tasks from the “In Progress” section. Checking the fixed bugs from the “To Be Tested” section | Timely performance of assigned tasks by the QA Engineer and Developers within the schedule of testing and development of the product |
+| Major    | In the absence of tasks with the highest and high priority, work on creating new and/or improving existing test documentation | QA process improvement of the product |
 
 
-Weekly objectives for QA team
-Analyze new feature requirements and clarify acceptance criteria
-Perform manual testing of new features and bug fixes
-Prioritize defects based on severity and impact
-Verify resolved defects and close verified issues
-Maintain and update test documentation as needed
-Develop automated tests as time and resources allow
+
+## Weekly objectives for QA team
+- Analyze new feature requirements and clarify acceptance criteria
+- Perform manual testing of new features and bug fixes
+- Prioritize defects based on severity and impact
+- Verify resolved defects and close verified issues
+- Maintain and update test documentation as needed
+- Develop automated tests as time and resources allow
 
 ## Using templates
 
