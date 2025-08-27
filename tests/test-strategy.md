@@ -1,13 +1,13 @@
 
-# 1.Introduction
+# 1. Introduction
 The purpose of the test strategy for the Smartscapes is to:
 - Provide a central artifact to govern the strategic approach of the test effort;it defines the general approach to be employed when testing the software and when evaluating the results of that testing.Planning artifacts will refer to the test strategy regarding the governing of detailed testing work
 - Provide visible confirmation to test-effort stakeholders that adequate consideration has been given to governing the test effort and, where appropriate, to have those stakeholders approve the strategy.
 
 ## Analogues 
 
-- AllTrails
-- Strava
+- [AllTrails](https://www.alltrails.com/)
+- [Strava](https://www.strava.com/)
   
 ## Used technologies 
 - Backend
@@ -19,9 +19,12 @@ The purpose of the test strategy for the Smartscapes is to:
 - Github actions are used for CI and CD.
 - Scrum model of SDLC.
 ## Documents
-- Design — Figma
-- Specification — Specification
-- Repository  — Repository
+- [Design](https://www.figma.com/design/tU2cvcryMDuqMmkv6moUHa/BSA-2025-SmartScapes?node-id=10-2024&t=Be6embqjsMJsaHdX-1)
+- [Specification](https://docs.google.com/document/d/1VjEnM1IE8HYjteTwURhjF8DbEKnifgNBEXkjuDrQ1zA/edit?tab=t.0)
+- [Repository](https://github.com/BinaryStudioAcademy/bsa-2025-smartscapes)
+- [Checklists](https://docs.google.com/spreadsheets/d/1lTukD2ZygaLo7zT9L6hbucr_TPo5X48X/edit?gid=158584314#gid=158584314)
+- [Mind map](https://www.figma.com/board/06KTyTTlvFvrFOtKOX8jFe/Mind-Map-Smartscapes--Copy-?node-id=0-1&t=LA9aV3oYxC1B02F2-1)
+- [Swagger](https://docs.google.com/spreadsheets/d/1lTukD2ZygaLo7zT9L6hbucr_TPo5X48X/edit?gid=158584314#gid=158584314)
 ## Project team
 The team that will work on the project: 
 - developer team (10);
@@ -40,7 +43,7 @@ Testers can communicate:
 - with questions about the product to the product-owner before the demo;
 - with any technical questions to the development team.
 
-## 2.Test Approach
+## 2. Test Approach
 A proactive approach will be used in the testing - an approach in which the test design process is initiated as early as possible in order to find and fix the defects before the build is created.
 - Manual testing
 - Automated testing (Optional)
@@ -110,7 +113,7 @@ The following types of testing will be used:
 7. Expected result
 
 
-# 3.Test Environment
+# 3. Test Environment
 - Setup required for the test environment:
 
 
@@ -140,7 +143,7 @@ Number of environments: <br>
 -Development (dev)<br>
 -Production (prod)<br>
 
-# 4.Testing Tools and Artifacts
+# 4. Testing Tools and Artifacts
 
 - Testing artifacts for the Project:
 All artifacts should be published on the Github project board
@@ -178,7 +181,7 @@ We will use Postman (TS, playwright).<br>
 We will use GIT hub actions for CI/CD.<br>
 
 
-# 5.Release Control    
+# 5. Release Control    
 The project workspace is organized on the Github project board:<br>
 GitHub is used as a code hosting platform for version control and collaboration for this project. <br>
   - Testing entry criteria:<br>
